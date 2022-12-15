@@ -1,0 +1,91 @@
+body,html{
+        height:100%;
+        width: 100%;
+        margin: 2px;
+        padding: 0px;
+        
+   }
+
+.nav-bar{
+    display:inline-block;
+    justify-content: space-around;
+    font: bold;
+    margin-bottom: -2px;
+    color: white;
+    width: 100%;
+    background-color: black;
+    font-weight: 900;
+    text-align: center;
+    display: inline-flex;
+    
+        
+}
+
+.left nav{
+    text-align: left;
+   justify-content: left;
+   
+
+}
+   
+.container{
+    margin-top: 0px;
+    margin-bottom: 80px;
+    text-align: center;
+    color:white;
+    background-color: black;
+    justify-content: left;
+       
+}
+
+#background picture{
+    justify-content: left;
+    text-align: left;
+}
+#title{
+    flex-direction: column;
+    font-size:xx-large ;
+    justify-content:inherit;
+    align-items: center;
+    
+}
+
+.dates{
+text-align: center;
+justify-content: center;
+font-size: large;
+background-color: gainsboro;
+}
+#Flexbox-container{
+    display:flex;
+     
+     justify-content: space-between;
+     align-items: center;
+     align-content: space-around;
+     flex-direction:row;
+     height: 50%;
+    
+}
+
+.box1{
+display: flex;
+align-content: space-around;
+}
+#address{
+    align-content: center;
+    justify-content: space-around;
+    align-self: center;
+    padding-left: 10px;
+    flex-direction: column;
+}
+
+.read_more{
+align-content: right;
+justify-content: right;
+}
+
+.button{
+    justify-content: center;
+    align-items: center;
+}
+
